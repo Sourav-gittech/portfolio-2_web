@@ -1,0 +1,152 @@
+@media (max-width:1190px) {
+
+    /* Custom CSS  */
+    section .content {
+        width: 85%;
+    }
+}
+
+@media (max-width:1000px) {
+
+    /* About CSS  */
+    .about .about-details {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about .about-details .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about .about-details .right {
+        width: 90%;
+        margin: 40px 0;
+    }
+
+    /* Services CSS  */
+    .services .boxes .box {
+        margin: 20px 0;
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media (max-width:900px) {
+
+    /* About CSS  */
+    .about .about-details .left img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width:750px) {
+
+    /* Navbar CSS  */
+    nav .navbar {
+        width: 90%;
+    }
+
+    nav .navbar .menu {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background: var(--primary-color);
+        height: 100vh;
+        max-width: 400px;
+        width: 100%;
+        padding-top: 60px;
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s ease;
+    }
+
+    .navbar.active .menu {
+        left: 0;
+    }
+
+    nav .navbar .menu a {
+        font-size: 23px;
+        display: block;
+        color: var(--white-color);
+        margin: 10px 0;
+    }
+
+    nav .navbar .menu a:hover {
+        color: var(--black-color);
+    }
+
+    nav .navbar .media-icons {
+        display: none;
+    }
+
+    nav .menu-btn,
+    .navbar .menu .cancel-btn {
+        display: block;
+    }
+
+    nav .menu-btn{
+        color: var(--primary-color);
+    }
+
+    nav.sticky .menu a:hover {
+        color: var(--primary-color);
+    }
+
+    /* Banner CSS   */
+    .home .text-two {
+        font-size: 65px;
+    }
+
+    .home .text-three {
+        font-size: 35px;
+    }
+
+    /* Skills CSS  */
+    .skills .skills-details {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skills .skills-details .text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .skills .skills-details .boxes {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Services CSS  */
+    .services .boxes .box {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    /* Contact CSS  */
+    .contact .text {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+
+    /* Banner CSS   */
+    .home .text-two {
+        font-size: 55px;
+    }
+
+    .home .text-three {
+        font-size: 33px;
+    }
+
+    /* Skills CSS  */
+    .skills .skills-details .boxes .box .per {
+        font-size: 50px;
+        color: var(--primary-color);
+    }
+}
