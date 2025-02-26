@@ -152,6 +152,7 @@ nav .navbar .logo a {
 nav .navbar .menu {
     display: flex;
     position: relative;
+    z-index: 1;
 }
 
 nav .navbar .menu li {
